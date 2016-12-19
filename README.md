@@ -1,4 +1,4 @@
 # My-Profile-webpage
 Profile page for my web site
 
-Go to profile repositery and read the process in readme.
+Note---  This webpage is under development and some links in web page might not work.
