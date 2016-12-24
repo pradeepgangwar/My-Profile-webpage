@@ -47,6 +47,7 @@ header,nav,section,footer{
 #div1{
 	background-color: #0299ef;
 	background-image: linear-gradient(to top,#04507b,#002aff,#0072b4);
+	box-shadow: inset -5px -5px 10px #F93005;
 	border-radius: 20px;
 	height:290px;
 	margin:80px 0px 50px 0px;
@@ -89,6 +90,7 @@ header,nav,section,footer{
 
 .all_info{
 	background-color: #A8D4DC;
+	box-shadow: inset -5px -5px 10px #F93005;
 	border-radius: 30px;
 }
 
