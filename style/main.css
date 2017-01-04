@@ -14,6 +14,11 @@ body {
 	margin: 0px auto;
 }
 
+@keyframes animation{
+	from{height:0px;}
+	to{height:290px;}
+}
+
 .top_nav{
 	position: fixed;
 	margin-top: 5x;
@@ -51,6 +56,7 @@ header,nav,section,footer{
 	border-radius: 20px;
 	height:290px;
 	margin:80px 0px 50px 0px;
+	animation: animation 3s ease-in-out 0s;         /*name duration timing-function delay iteration direction*/
 }
 
 #intro{
@@ -90,8 +96,9 @@ header,nav,section,footer{
 
 .all_info{
 	background-color: #A8D4DC;
-	box-shadow: inset -5px -5px 10px #F93005;
 	border-radius: 30px;
+	box-shadow: inset -5px -5px 10px #F93005;
+
 }
 
 #all_info1{
@@ -120,6 +127,21 @@ header,nav,section,footer{
 	padding-top: 4px;
 	padding-bottom: 3px;
 	margin-top: 30px;	
+}
+
+.skills_des table{
+	font-family: Garamond;
+	font-size: 26px;
+	padding-top: 22px;
+	padding-bottom: 10px;
+	clear: both;
+	margin: auto auto 10px auto;
+	background-color: inherit;
+}
+
+.skills_des table th,td{
+	padding: 5px 35px;
+	text-align: center;
 }
 
 .skills_des p{
@@ -159,6 +181,12 @@ header,nav,section,footer{
 	background-color: #A8D4DC;
 	border-radius: 30px;
 }
+
+.second_contact a{
+	text-decoration: none;
+	color: black;
+}
+
 
 #footer ul li{
 	float: left;
